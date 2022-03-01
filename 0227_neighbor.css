@@ -1,0 +1,157 @@
+@import "0227_reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+body {
+  width: 100%;
+  background-color: rgb(221, 219, 219);
+  height: 200vh;
+}
+.status-bar {
+  margin-top: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-bar__column {
+  display: flex;
+  justify-content: center;
+}
+.main-screen {
+  display: flex;
+  width: 600px;
+  height: 1300px;
+  background-color: white;
+  border-radius: 80px;
+  margin-left: 100px;
+  margin-top: 100px;
+  flex-direction: column;
+  position: relative;
+}
+.status-bar__column {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.contents:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  box-shadow: 0px 10px 20px black;
+  margin-top: 60px;
+}
+.content-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.content-text p {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.35);
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.568);
+  margin-top: 10px;
+}
+.sales-lists {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.sales-list-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  margin-left: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.349);
+}
+.sales-list {
+  width: 557px;
+  height: 165px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.sales-list span {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.sales-list p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+.sales-list__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.bottom-status {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2e352e;
+  width: 550px;
+  height: 90px;
+  border-radius: 30px;
+  margin-left: 25px;
+  margin-top: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+}
+.bottom-status-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-status-bar__icon {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.bottom-status-bar__icon i {
+  color: rgb(225, 231, 236);
+}
+.bottom-status-bar__icon i:hover {
+  color: rgba(231, 190, 57, 0.856);
+}
+.status-bar:nth-child(2) {
+  border: none;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.561);
+  margin-bottom: 50px;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+.sales-lists a:hover {
+  color: rgb(117, 162, 247);
+}
+.contents:last-child {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 50px;
+}
+
+input[type="text"]:focus {
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 20px;
+  opacity: 1;
+  color: black;
+}
+input::placeholder {
+  color: rgb(117, 162, 247);
+}
