@@ -4,6 +4,8 @@ body {
   width: 100%;
   background-color: rgb(221, 219, 219);
   height: 200vh;
+  display: flex;
+  justify-content: center;
 }
 .status-bar {
   margin-top: 50px;
@@ -60,8 +62,8 @@ body {
 }
 .sales-lists {
   display: flex;
-  margin-left: 30px;
-  margin-top: 40px;
+  margin-left: -10px;
+  margin-top: 0px;
   flex-direction: column;
 }
 .sales-list-img {
